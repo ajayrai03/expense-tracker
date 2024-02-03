@@ -44,6 +44,7 @@ function showValueOnScreen(obj){
         localStorage.removeItem(obj.description);
         addItemOnScreen.removeChild(createEle);
         document.getElementById('amount').value=obj.amount;
+        // console.log(obj.description,obj.amount);
         document.querySelector('select').value=obj.itemList;
         document.getElementById('description').value=obj.description;
 
